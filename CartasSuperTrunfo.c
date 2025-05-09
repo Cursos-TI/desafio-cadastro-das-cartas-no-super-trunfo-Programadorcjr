@@ -1,54 +1,50 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
 
 int main() {
-    // Carta 01
-    
-    char Codigo [2];
-    char Cidade [50];
-    int População;
-    float Area;
-    float PIB;
-    int PTturistico;
+   
+  // Declaração de variavel Primeira carta 
+    char Estado1;
+    char Codigo1[2];
+    char Cidade1[50];
+    float População1;
+    float Area1;
+    float PIB1;
+    int Pontoturistico1;
 
-    printf ("Codigo da cidade:\n");
-    scanf ("%s" &Codigo:\n);
+    // Leitura da carta 1
+    printf("Digite os dados da carta1\n");
 
-    printf("Cidade:\n");
-    scanf("%s", &Cidade);
+    printf("Estado1(Uma Letra de A a H)\n");
+    scanf("%c", &Estado1);
 
-    printf("População:\n");
-    scanf("%d", &População:\n);
+    printf("Digite o Codigo1(EX: A1, H1)\n");
+    scanf("%s", &Codigo1);
 
-    printf("Area:\n");
-    scanf ("%f", &Area);
+    printf("Digite a Cidade1\n"); 
+    scanf("%s", &Cidade1);
 
-    printf("PIB:\n");
-    scanf("%f", &PIB);
+    printf("Didite a População1\n");
+    scanf("%f", &População1);
 
-    printf("Poto Turistico:\n");
-    scanf("%d", &PTturistico);
+    printf("Digite a Area1\n");
+    scanf("%f", &Area1);
 
-    printf ("codigo:%s - Cidade: %s codigo, cidade");
-    printf ("População: %f Area: %f PIB: %f");
-    printf ("Ponto turistico: %d");
+    printf("Digite o PIB1 em milhões de reais\n");
+    scanf("%f", &PIB1);
 
+    printf("Digite Pontos turisticos1\n");
+    scanf("%d", &Pontoturistico1);
 
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    // Exibição de dados
+    printf("\nDados da Carta1\n");
 
+    printf("Estado1: %c\n", Estado1);
+    printf("Codido1: %s\n", Codigo1);
+    printf("Cidaade1: %s\n", Cidade1);
+    printf("População1: %f\n", População1);
+    printf("Area1: %f\n", Area1);
+    printf("PIB1: %f\n", PIB1);
+    printf("Pontoturistico1: %d\n", Pontoturistico1);
     return 0;
 }
